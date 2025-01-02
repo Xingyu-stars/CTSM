@@ -1,0 +1,27 @@
+Package: CTSM
+Title: Cumulative Time Stacking Model
+Version: 0.0.0.9000
+Authors@R: 
+    person("Xingyu", "Liu", email = "2272619393@qq.com", 
+    role = c("aut", "cre"))
+Description: This package provides a detailed process for data 
+    extraction, feature construction, and model training and 
+    prediction in the Cum-Time Stacking model.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    keras3,
+    tensorflow,
+    tidyverse,
+    dplyr,
+    caret,
+    caTools,
+    rpart,
+    caretEnsemble,
+    pROC,
+    reticulate,
+    kernlab
+Depends:
+    R (>= 2.10)
