@@ -24,6 +24,9 @@ probabilities are then used as feature vectors for the meta-learner
 of features fed into the meta-learner, thereby effectively improving
 prediction accuracy.
 
+Below is the training process of the Cum-Time Stacking model:
+<img src="man/figures/Cum-Time Stacking Model.png" width="70%" />
+
 The research conducted in this project is based on the preprint paper
 titled “A Cum-Time-Based Machine Leaning Algorithm for Predicting Sepsis
 Onset in MIMIC IV”.
@@ -82,10 +85,7 @@ lookback_time <- c(2,4,6,8,10)
 # data_stacking <- stacking_func(data_feature,lookback_time)
 ```
 
-Below is the training process of the Cum-Time Stacking model:
-<img src="man/figures/Cum-Time Stacking Model.png" width="70%" />
 <!-- What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so: -->
-
 <!-- ```{r cars} -->
 <!-- summary(cars) -->
 <!-- ``` -->
